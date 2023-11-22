@@ -1,10 +1,11 @@
+import Navbar from './components/Navbar';
 import './styles/App.css';
-
+import 'animate.css';
 function App() {
 
   return (
-    <div className="w-full text-center">
-      TailwindCss Portfolio Template
+    <div className="">
+      <Navbar />
     </div>
   )
 }
