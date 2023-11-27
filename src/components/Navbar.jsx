@@ -3,7 +3,7 @@ import img from '../assets/react.svg';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-
+// import '../styles/Navbar.css';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -11,12 +11,22 @@ const Navbar = () => {
         setNav(!nav);
     }
 
+        document.addEventListener('scroll', () => {
+            let header = document.getElementById('navbar');
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            }
+            else {
+                header.classList.remove('scrolled');
+            }
+        });
+
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div id='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
                 <img src={img} alt="img" style={{ width: '40px' }} />
             </div>
-            <div className='hidden md:block'>
+            <div className='hidden md:block blockNav'>
                 <ul className='flex justify-between items-center w-full'>
                     <li className='py-2 px-4 hover:text-white'>Home</li>
                     <li className='py-2 px-4 hover:text-white'>About</li>
@@ -27,7 +37,7 @@ const Navbar = () => {
             </div>
 
             {/* Hambuger */}
-            <div onClick={handleNavIcon} className='block md:hidden z-10 hover:cursor-pointer'>
+            <div onClick={handleNavIcon} className='block md:hidden z-10 hover:cursor-pointer' id='icons'>
                 {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
             </div>
 
