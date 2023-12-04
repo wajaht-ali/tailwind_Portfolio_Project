@@ -1,9 +1,15 @@
-import HTML from '../assets/images/html5.jpg';
-import CSS from '../assets/images/css3.jpg';
-import JS from '../assets/images/javascript.jpg';
-import TS from '../assets/images/typescript.jpg';
-import REACT from '../assets/images/reactjs.jpg';
-import TW from '../assets/images/tailwindcss.jpg';
+import HTML from '../assets/images/html.png';
+import CSS from '../assets/images/css.png';
+import JS from '../assets/images/javascript.png';
+import TS from '../assets/images/typescript.jpg'
+import React from '../assets/images/react.png';
+import Node from '../assets/images/node.png';
+import Mongo from '../assets/images/mongo.png';
+import Express from '../assets/images/express.jpg';
+import Tailwind from '../assets/images/tailwind.png';
+import Git from '../assets/images/git.jpg';
+import Github from '../assets/images/github.png';
+
 const Skills = () => {
   return (
     <div className="h-auto md:h-screen w-full bg-[#0a192f] text-gray-300">
@@ -19,11 +25,11 @@ const Skills = () => {
             <p className='text-lg uppercase text-center my-2 font-bold'>html</p>
           </div>
           <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
-            <img className='rounded mx-auto w-[80%] h-[80%]' src={HTML} alt="HTML" />
+            <img className='rounded mx-auto w-[80%] h-[80%]' src={CSS} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>html</p>
           </div>
           <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
-            <img className='rounded mx-auto w-[80%] h-[80%]' src={HTML} alt="HTML" />
+            <img className='rounded mx-auto w-[80%] h-[80%]' src={JS} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>html</p>
           </div>
           <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
