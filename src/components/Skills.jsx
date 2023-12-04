@@ -9,12 +9,12 @@ import Mongo from '../assets/images/mongo.png';
 import Express from '../assets/images/express.jpg';
 import Tailwind from '../assets/images/tailwind.png';
 import Git from '../assets/images/git.jpg';
-import Github from '../assets/images/github.png';
+// import Github from '../assets/images/github.png';
 
 const Skills = () => {
   return (
     <div className="h-auto md:h-screen w-full bg-[#0a192f] text-gray-300">
-      <div className="max-w-[1000px] h-full flex flex-col mx-auto">
+      <div className="max-w-[1000px] h-full flex flex-col mx-auto p-4">
         <div className="p-4">
           <h1 className="text-4xl font-bold border-b-4 rounded-sm border-pink-600 inline pt-3">Skills</h1>
           <p className="text-lg mt-4">//These are the technologies I&apos;ve worked with:</p>
