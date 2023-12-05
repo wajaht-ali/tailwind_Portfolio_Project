@@ -21,52 +21,53 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 md:grid-rows-2 md:grid-cols-4 p-4 mx-auto h-full place-items-center">
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={HTML} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>HTMl</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={CSS} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>CSS</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={JS} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Javascript</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={TS} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Typescript</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={React} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>React</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={Node} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Node</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={Express} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Express</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={Mongo} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Mongo DB</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={Tailwind} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Tailwind</p>
           </div>
 
-          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={Git} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Git</p>
           </div>
