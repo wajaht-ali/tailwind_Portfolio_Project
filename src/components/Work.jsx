@@ -13,20 +13,13 @@ const Work = () => {
           <h1 className='text-4xl font-bold border-b-4 border-pink-600 inline rounded'>Work</h1>
           <p className='mt-4 text-lg'>//These are the projects, I&apos;ve build: </p>
         </div>
-        <div style={{ backgroundImage: `url(${workImg})` }} className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <div className='relative'>
-            <span>
-              <img className='h-100px w-100px rounded cursor-pointer' src={realEstate} alt="myImage" />
-            </span>
 
-            <div className='absolute left-0 bottom-0 overflow-hidden bg-gradient-to-r from-pink-400 to-orange-600 w-full'>
-              <h2>ReactJS Application</h2>
-              <a href="/">
-                <button>Code</button>
-              </a>
-              <a href="/">
-                <button>Live</button>
-              </a>
+        <div style={{ backgroundImage: `url(${workImg})` }} className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+
+          <div className="shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto rounded-md content-div">
+            <div>
+              <span></span>
+              <div></div>
             </div>
           </div>
         </div>
