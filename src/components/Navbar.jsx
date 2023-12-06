@@ -3,7 +3,7 @@ import img from '../assets/images/logo1.png';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FaBars, FaTimes, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import '../styles/Navbar.css';
+// import '../styles/Navbar.css';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -66,4 +66,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;
