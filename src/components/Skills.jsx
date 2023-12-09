@@ -16,7 +16,7 @@ const Skills = () => {
     <div name='skills' className="h-auto md:h-screen w-full bg-[#0a192f] text-gray-300">
       <div className="max-w-[1000px] h-full flex flex-col mx-auto p-4">
         <div className="p-4">
-          <h1 className="text-4xl font-bold border-b-4 rounded-sm border-pink-600 inline pt-3">Skills</h1>
+          <h1 className="text-4xl font-bold border-b-4 rounded-sm border-[#ccd6f6] inline pt-3">Skills</h1>
           <p className="text-lg mt-4">//These are the technologies I&apos;ve worked with:</p>
         </div>
 

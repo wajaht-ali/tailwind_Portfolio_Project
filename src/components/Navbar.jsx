@@ -5,13 +5,15 @@ import { FaBars, FaTimes, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 import { Link } from 'react-scroll';
-// import '../styles/Navbar.css';
+import '../styles/Navbar.css';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleNavIcon = () => {
         setNav(!nav);
     }
+
+    const handleClick = () => setNav(!nav);
 
     document.addEventListener('scroll', () => {
         let header = document.getElementById('navbar');
@@ -34,7 +36,7 @@ const Navbar = () => {
                         <Link to='home' smooth={true} duration={500}>Home</Link>
                     </li>
                     <li className='py-2 px-4 hover:text-white cursor-pointer'>
-                    <Link to='about' smooth={true} duration={500}>About</Link>
+                        <Link to='about' smooth={true} duration={500}>About</Link>
                     </li>
                     <li className='py-2 px-4 hover:bg-[#0fd9a] hover:text-white cursor-pointer'>
                         <Link to='skills' smooth={true} duration={500}>Skills</Link>
@@ -55,11 +57,22 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#0a192f]'}>
-                <li className='py-6 text-3xl'>Home</li>
-                <li className='py-6 text-3xl'>About</li>
-                <li className='py-6 text-3xl'>Skills</li>
-                <li className='py-6 text-3xl'>Work</li>
-                <li className='py-6 text-3xl'>Contact</li>
+                <li className='py-6 text-3xl cursor-pointer'>
+                    {/* <Link to='contact' smooth={true} duration={500}>Home</Link> */}
+                    <Link onClick={handleClick} to='home' smooth={true} duration={500} >Home</Link>
+                </li>
+                <li className='py-6 text-3xl cursor-pointer'>
+                    <Link onClick={handleClick} to='about' smooth={true} duration={500}>About</Link>
+                </li>
+                <li className='py-6 text-3xl cursor-pointer'>
+                    <Link onClick={handleClick} to='skills' smooth={true} duration={500}>Skills</Link>
+                </li>
+                <li className='py-6 text-3xl cursor-pointer'>
+                    <Link onClick={handleClick} to='work' smooth={true} duration={500}>Work</Link>
+                </li>
+                <li className='py-6 text-3xl cursor-pointer'>
+                    <Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link>
+                </li>
             </ul>
 
             {/* Social icons */}
