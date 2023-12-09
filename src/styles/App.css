@@ -622,6 +622,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-\[2rem\] {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -664,6 +668,14 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[160px\] {
+  height: 160px;
+}
+
+.h-\[170px\] {
+  height: 170px;
 }
 
 .w-\[120px\] {
@@ -860,6 +872,10 @@ video {
   padding-top: 2rem;
 }
 
+.pt-\[2rem\] {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1038,6 +1054,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:h-auto {
+    height: auto;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
