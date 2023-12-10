@@ -2,7 +2,8 @@
     background-color: #ccd6f6;
     transition: .5s all ease-in-out;
 }
-.scrolled .blockNav{
+
+.scrolled .blockNav {
     color: #333;
 }
 
