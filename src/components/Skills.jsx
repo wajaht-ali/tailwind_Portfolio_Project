@@ -2,12 +2,12 @@
 import HTML from '../assets/images/html.png';
 import CSS from '../assets/images/css.png';
 import JS from '../assets/images/javascript.png';
-import TS from '../assets/images/typescript.jpg'
+// import TS from '../assets/images/typescript.jpg'
 import React from '../assets/images/react.png';
 import Node from '../assets/images/node.png';
 import Mongo from '../assets/images/mongo.png';
 import Express from '../assets/images/express.jpg';
-// import Tailwind from '../assets/images/tailwind.png';
+import Tailwind from '../assets/images/tailwind.png';
 // import Git from '../assets/images/git.jpg';
 // import Github from '../assets/images/github.png';
 
@@ -37,10 +37,10 @@ const Skills = () => {
             <p className='text-lg uppercase text-center my-2 font-bold'>Javascript</p>
           </div>
 
-          <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
+          {/* <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={TS} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Typescript</p>
-          </div>
+          </div> */}
 
           <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={React} alt="HTML" />
@@ -62,10 +62,10 @@ const Skills = () => {
             <p className='text-lg uppercase text-center my-2 font-bold'>Mongo DB</p>
           </div>
 
-          {/* <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
+          <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={Tailwind} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>Tailwind</p>
-          </div> */}
+          </div>
 
           {/* <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={Git} alt="HTML" />
