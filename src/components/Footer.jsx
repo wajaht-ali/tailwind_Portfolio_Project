@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="max-w-[1000px] w-full h-full grid content-center mx-auto p-4">
                 <div name="About-Me" className="flex flex-col justify-between items-center w-[80%] mx-auto">
                     <img src={img} alt="img" style={{ width: '60px' }} />
-                    <p className="mt-3 text-justify text-md">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In amet molestiae vel quasi fugiat corrupti voluptas aspernatur earum quo eius.</p>
+                    <p className="mt-3 text-justify text-md">Although I’m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll happy to get back to you!</p>
                 </div>
                 {/* <div name="Nav-items" className="flex justify-center items-center w-full h-full">
                     <ul className="flex flex-col items-center justify-center h-[160px] p-4">
