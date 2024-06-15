@@ -2,7 +2,7 @@
 
 const Contact = () => {
     return (
-        <div name="contact" className="h-screen w-full bg-[#0a192f] text-gray-300">
+        <div name="contact" className="h-screen w-full bg-[#0a192f] text-gray-300 pt-[2rem]">
             <div className="max-w-[1000px] h-full flex flex-col justify-center items-center mx-auto">
                 <div className="p-4 w-full">
                     <h1 className="text-3xl font-bold border-b-4 inline border-blue-500 rounded-sm">Contact</h1>

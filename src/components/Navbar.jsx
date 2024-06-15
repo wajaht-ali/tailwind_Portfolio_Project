@@ -26,7 +26,7 @@ const Navbar = () => {
     });
 
     return (
-        <div id='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300'>
+        <div id='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-200 z-10'>
             <div>
                 <Link to={'home'} duration={300} smooth={true} className="cursor-pointer">
                     <img src={img} alt="img" style={{ width: '40px' }} />
@@ -53,7 +53,7 @@ const Navbar = () => {
             </div>
 
             {/* Hambuger */}
-            <div onClick={handleNavIcon} className='block md:hidden z-10 hover:cursor-pointer' id='icons'>
+            <div onClick={handleNavIcon} className='block md:hidden z-10 hover:cursor-pointer mx-4 text-gray-100' id='icons'>
                 {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
             </div>
 
@@ -78,7 +78,7 @@ const Navbar = () => {
             </ul>
 
             {/* Social icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 text-white -z-10'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 text-white'>
                 <ul className='flex flex-col'>
                     <li className="bg-blue-500 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300"><a href="https:www.linkedin.com" target='_blank' rel='noreferrer'>Linkedin</a><FaLinkedin size={20} /></li>
 
