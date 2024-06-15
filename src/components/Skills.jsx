@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import HTML from '../assets/images/html.png';
-import CSS from '../assets/images/css.png';
+import cpp from '../assets/images/cpp.png'
+import git from '../assets/images/git.png'
 import JS from '../assets/images/javascript.png';
 import React from '../assets/images/react.png';
 import Node from '../assets/images/node.png';
 import Mongo from '../assets/images/mongo.png';
-import Express from '../assets/images/express.jpg';
+import Express from "../assets/images/express.png"
 import Tailwind from '../assets/images/tailwind.png';
 import bgVideo from "../assets/video/network_bg_1.mp4";
 
@@ -31,14 +31,14 @@ const Skills = () => {
         <div className="w-full grid grid-cols-2 md:grid-rows-2 md:grid-cols-4 p-4 mx-auto h-full place-items-center">
 
           <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
-            <img className='rounded mx-auto w-[80%] h-[80%]' src={HTML} alt="HTML" />
-            <p className='text-lg uppercase text-center my-2 font-bold'>HTMl</p>
+            <img className='rounded mx-auto w-[80%] h-[80%]' src={cpp} alt="HTML" />
+            <p className='text-lg uppercase text-center my-2 font-bold'>CPP</p>
           </div>
 
-          <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
+          {/* <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={CSS} alt="HTML" />
             <p className='text-lg uppercase text-center my-2 font-bold'>CSS</p>
-          </div>
+          </div> */}
 
           <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[80%] h-[80%]' src={JS} alt="HTML" />
@@ -70,9 +70,14 @@ const Skills = () => {
             <p className='text-lg uppercase text-center my-2 font-bold'>Mongo DB</p>
           </div>
 
+          <div className='w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
+            <img className='rounded mx-auto w-[80%] h-[80%]' src={Tailwind} alt="tailwindcss" />
+            <p className='text-lg uppercase text-center my-2 font-bold'>Tailwind CSS</p>
+          </div>
+
           <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
-            <img className='rounded mx-auto w-[80%] h-[80%]' src={Tailwind} alt="HTML" />
-            <p className='text-lg uppercase text-center my-2 font-bold'>Tailwind</p>
+            <img className='rounded mx-auto w-[80%] h-[80%]' src={git} alt="git" />
+            <p className='text-lg uppercase text-center my-2 font-bold'>Git</p>
           </div>
 
           {/* <div className='w-[180px] h-[150px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
