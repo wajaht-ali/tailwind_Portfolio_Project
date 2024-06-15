@@ -80,11 +80,11 @@ const Navbar = () => {
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0 text-white'>
                 <ul className='flex flex-col'>
-                    <li className="bg-blue-500 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300"><a href="https:www.linkedin.com" target='_blank' rel='noreferrer'>Linkedin</a><FaLinkedin size={20} /></li>
+                    <li className="bg-blue-500 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300"><a href="https://linkedin.com/in/wajhat-ali/" target='_blank' rel='noreferrer'>Linkedin</a><FaLinkedin size={20} /></li>
 
-                    <li className="bg-gray-800 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300 hover:cursor-pointer"><a href="https:www.github.com" target='_blank' rel='noreferrer'>Github</a> <FaGithub size={20} /></li>
+                    <li className="bg-gray-800 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300 hover:cursor-pointer"><a href="https://www.github.com/wajaht-ali/" target='_blank' rel='noreferrer'>Github</a> <FaGithub size={20} /></li>
 
-                    <li className="bg-[#00df9a] p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300"><a href='mailto:contact.chwajahat@gmail.com'>GMail</a> <HiOutlineMail size={20} /></li>
+                    <li className="bg-[#00df9a] p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300"><a href='mailto:contact.chwajahat@gmail.com'><abbr title="contact.chwajahat@gmail.com">GMail</abbr></a> <HiOutlineMail size={20} /></li>
 
                     <li className="bg-gray-500 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300 cursor-pointer"><a href="https:www.Linkedin.com" target='_blank' rel='noreferrer'>Resume</a> <BsFillPersonLinesFill size={20} /></li>
                 </ul>

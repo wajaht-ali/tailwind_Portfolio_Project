@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 //eslint-disable no-unused-vars 
 // import { HiArrowRight } from 'react-icons/hi'
 // import { Link } from "react-scroll";
@@ -30,7 +31,7 @@
 import { HiArrowRight } from 'react-icons/hi';
 import { Link } from "react-scroll";
 import bgVideo from "../assets/video/coding_bg_1.mp4";
-
+import { IoMdCloudDownload } from "react-icons/io";
 const Hero = () => {
   return (
     <div name='home' className="Hero w-full h-screen bg-[#0a192f] relative">
@@ -51,11 +52,17 @@ const Hero = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]"> <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">MERN Stack</span> Developer.</h2>
         <p className="text-[#d4dbee] py-4 max-w-[700px] text-[18px]">A process-oriented individual, believed in approach of prioritizing the product&apos;s development procedure instead of focusing on results and outcomes.</p>
 
-        <div>
+        <div className="flex flex-row items-center gap-x-4">
           <button className="text-white group w-[120px] text-center justify-evenly py-1 border-2 border-blue-500 hover:bg-blue-400 flex items-center  ease-in duration-300 origin-bottom">
             <Link to={'work'} duration={500} smooth={true}>My Work</Link>
             <span className='group-hover:rotate-90 group-hover:text-black duration-300'>
               <HiArrowRight />
+            </span>
+          </button>
+          <button className="text-white group w-[120px] text-center justify-evenly py-1 border-2 border-blue-500 hover:bg-blue-400 flex items-center  ease-in duration-300 origin-bottom">
+            <a href={'https://drive.google.com/file/d/1beoArREP7a1TSV-jk1sfrjl0hR6DnUNv/view?usp=sharing'} target='_blank'>Resume</a>
+            <span className='group-hover:translate-y-1 group-hover:text-black duration-300'>
+              <IoMdCloudDownload />
             </span>
           </button>
         </div>
