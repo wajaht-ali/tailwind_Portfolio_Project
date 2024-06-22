@@ -15,10 +15,10 @@ const About = () => {
                         <p className="text-4xl inline font-bold">Computer Science student and an aspiring software enngineer.</p>
                     </div>
                     <div className="px-4 text-justify">
-                        <p>Hello there, My name is Wajahat Ali, I&apos;m a final year CS student at the University of Haripur and an aspiring software engineer, maintaing <code className="text-white font-semibold">3.57/4</code> CGPA. Beside my academics, I have keen interest in <span className="text-white">development technologies</span> and practising the web development with start of my bachlor's degree. Please checkout my <Link className="text-white cursor-pointer font-semibold" to='work' smooth={true} duration={500}>Work</Link> for more details.</p>
+                        <p>Hello there, My name is Wajahat Ali, I&apos;m a final year CS student at the University of Haripur, maintaing <code className="text-white font-semibold">3.57/4</code> CGPA.In addition to my academic achievements, I have strong interest in <span className="text-white">development technologies</span> and have been actively practicing web development since the 5th semester of my bachelor's degree. For more details, please review my <Link className="text-white cursor-pointer font-semibold" to='work' smooth={true} duration={500}>Work Section</Link>. or visit my <Link className="text-white cursor-pointer font-semibold" target="_blank" to="https://www.github.com/wajaht-ali/">Github</Link> profile.</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     )
