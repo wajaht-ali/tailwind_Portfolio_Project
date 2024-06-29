@@ -12,22 +12,7 @@ const Footer = () => {
                     <img src={img} alt="img" style={{ width: '60px' }} />
                     <p className="mt-3 text-justify text-md">Although I’m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll happy to get back to you!</p>
                 </div>
-                {/* <div name="Nav-items" className="flex justify-center items-center w-full h-full">
-                    <ul className="flex flex-col items-center justify-center h-[160px] p-4">
-                        <li className="p-1 cursor-pointer text-lg border-b-2 border-gray-500">
-                            <Link to={'home'} smooth={true} duration={300}>Home</Link>
-                        </li>
-                        <li className="p-1 cursor-pointer text-lg border-b-2 border-gray-500">
-                            <Link to={'about'} smooth={true} duration={300}>About</Link>
-                        </li>
-                        <li className="p-1 cursor-pointer text-lg border-b-2 border-gray-500">
-                            <Link to={'skills'} smooth={true} duration={300}>Skills</Link>
-                        </li>
-                        <li className="p-1 cursor-pointer text-lg border-b-2 border-gray-500">
-                            <Link to={'work'} smooth={true} duration={300}>Work</Link>
-                        </li>
-                    </ul>
-                </div> */}
+                
             </div>
             <div className="flex flex-row w-full justify-between items-center p-4">
                 <p className="text-md">All rights reserved &copy;</p>
@@ -44,7 +29,7 @@ const Footer = () => {
                         </abbr>
                     </li>
                     <li>
-                        <a href="" rel="noreferrer" target="_blank"><BsFillPersonLinesFill size={20} /></a>
+                        <a href={"https://drive.google.com/file/d/1UIurJuVnXKYYWAA15jnxr4SmRX7T6o_K/view?usp=sharing"} target="_blank" rel="noreferrer"><BsFillPersonLinesFill size={20} /></a>
                     </li>
                 </ul>
             </div>

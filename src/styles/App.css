@@ -662,10 +662,6 @@ video {
   display: none;
 }
 
-.h-\[150px\]{
-  height: 150px;
-}
-
 .h-\[160px\]{
   height: 160px;
 }
@@ -706,16 +702,16 @@ video {
   width: 50%;
 }
 
+.w-\[70\%\]{
+  width: 70%;
+}
+
 .w-\[80\%\]{
   width: 80%;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-\[70\%\]{
-  width: 70%;
 }
 
 .max-w-\[1000px\]{

@@ -86,7 +86,7 @@ const Navbar = () => {
 
                     <li className="bg-[#00df9a] p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300"><a href='mailto:contact.chwajahat@gmail.com'><abbr title="contact.chwajahat@gmail.com">GMail</abbr></a> <HiOutlineMail size={20} /></li>
 
-                    <li className="bg-gray-500 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300 cursor-pointer"><a href="https:www.Linkedin.com" target='_blank' rel='noreferrer'>Resume</a> <BsFillPersonLinesFill size={20} /></li>
+                    <li className="bg-gray-500 p-3 w-[120px] flex flex-row justify-between items-center ml-[-75px] hover:ml-0 ease-in-out duration-300 cursor-pointer"><a href={"https://drive.google.com/file/d/1UIurJuVnXKYYWAA15jnxr4SmRX7T6o_K/view?usp=sharing"} target="_blank" rel="noreferrer">Resume</a> <BsFillPersonLinesFill size={20} /></li>
                 </ul>
             </div>
         </div>
