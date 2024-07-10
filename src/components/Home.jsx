@@ -19,8 +19,8 @@ const Hero = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full relative">
         <p className="text-blue-200">Hi, I&apos;m</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] line'>Wajahat Ali</h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]"> <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">MERN Stack</span> Developer.</h2>
-        <p className="text-[#d4dbee] py-4 max-w-[700px] text-[18px]">A process-oriented individual, believes in prioritizing the development procedure optimization instead of focusing on results and outcomes.</p>
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]"> <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"> <span className="text-sm">Jr.</span> MERN Stack</span> Developer.</h2>
+        <p className="text-[#d4dbee] py-4 max-w-[700px] text-[18px]">A process-oriented individual, who believes in prioritizing the development procedure optimization instead of focusing on results and outcomes.</p>
 
         <div className="flex flex-row items-center gap-x-4">
 
