@@ -67,9 +67,8 @@ const Skills = () => {
 
           <div className='w-[170px] md:w-[180px] h-[170px] rounded shadow-md shadow-[#040c16] p-2 m-3 hover:scale-105 duration-200 ease-in-out'>
             <img className='rounded mx-auto w-[70%] md:w-[80%] h-[80%]' src={Tailwind} alt="tailwindcss" />
-            <p className='text-lg uppercase text-center my-2 font-bold'>Tailwind Css</p>
+            <p className='text-lg uppercase text-center my-2 font-bold'>Tailwindcss</p>
           </div>
-
         </div>
 
       </div>

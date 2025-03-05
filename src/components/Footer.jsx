@@ -10,9 +10,9 @@ const Footer = () => {
             <div className="max-w-[1000px] w-full h-full grid content-center mx-auto p-4">
                 <div name="About-Me" className="flex flex-col justify-between items-center w-[80%] mx-auto">
                     <img src={img} alt="img" style={{ width: '60px' }} />
-                    <p className="mt-3 text-justify text-md">Although I’m currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll happy to get back to you!</p>
+                    <p className="mt-3 text-justify text-md">I keep exploring opportunities for career growth and professional development. If you have any inquiries or suggestions, I would be delighted to discuss how we can create mutual value. My inbox is always open, and I look forward to connecting with you!</p>
                 </div>
-                
+
             </div>
             <div className="flex flex-row w-full justify-between items-center p-4">
                 <p className="text-md">All rights reserved &copy;</p>

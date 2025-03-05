@@ -13,10 +13,10 @@ const About = () => {
                 </div>
                 <div className="max-w-[1000px] grid sm:grid-cols-2 gap-8 w-full">
                     <div className="sm:text-right pb-6 pl-4">
-                        <p className="text-4xl inline font-bold">A software engineer with good problem-solving and communication .</p>
+                        <p className="text-4xl inline font-bold">A software engineer with good problem-solving and communication skills.</p>
                     </div>
                     <div className="px-4 text-justify">
-                        <p> I am A junior software engineer and Computer Science graduate with six months of relevant industry experience in developing and contributing to cutting-edge software architectures. I specialize in  <span className="text-white">Web technologies</span> and am devoted to building scalable, efficient, and innovative solutions. For more details, please review my Work Section or visit my <a className="text-white cursor-pointer font-semibold" rel="noreferrer" target="_blank" href="https://www.github.com/wajaht-ali/">Github</a> profile.</p>
+                        <p> I am A junior software engineer and Computer Science graduate with six months of relevant industry experience in developing and contributing to cutting-edge software architectures. I specialize in  <span className="text-white">Web technologies</span> and am devoted to building scalable, efficient, and innovative solutions. For more details, please review my Work Section or visit my <a className="cursor-pointer font-semibold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400" rel="noreferrer" target="_blank" href="https://www.github.com/wajaht-ali/">Github</a> profile.</p>
                     </div>
                 </div>
             </div>
@@ -24,4 +24,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

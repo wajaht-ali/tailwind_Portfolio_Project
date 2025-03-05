@@ -23,13 +23,14 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
           {/* Grid Item 1*/}
-          <div style={{ backgroundImage: `url(${ecommerce})` }} className="shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto rounded-md content-div">
+          <div style={{ backgroundImage: `url(${ecommerce})` }} className="shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto rounded-md content-div text-center">
 
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Ecommece Web App
               </span>
+              <p className='text-center'>Full stack Ecommerce web application, demonstrating backend and UI development skills.</p>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/wajaht-ali/Ecommerce-app" target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
@@ -42,12 +43,13 @@ const Work = () => {
           </div>
 
           {/* Grid Item 2 */}
-          <div style={{ backgroundImage: `url(${blog})` }} className="shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto rounded-md content-div">
+          <div style={{ backgroundImage: `url(${blog})` }} className="shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto text-center rounded-md content-div">
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Blogging Web App
               </span>
+              <p className='text-center'>Full stack web application, allows user to write, share and read blogs in a mutual space.</p>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/wajaht-ali/mern-blog-app" target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
@@ -60,12 +62,13 @@ const Work = () => {
           </div>
 
           {/* Grid Item 3 */}
-          <div style={{ backgroundImage: `url(${cards})` }} className="shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto rounded-md content-div">
+          <div style={{ backgroundImage: `url(${cards})` }} className="shadow-lg shadow-[#040c16] group container flex justify-center items-center text-center mx-auto rounded-md content-div">
             {/* Hover effect */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Flashcards Web App
               </span>
+              <p className='text-center'>Full stack Ecommerce web application, having features to create & share flashcards with Gemini text generation ability, with public/Private visibility.</p>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/wajaht-ali/Flashcards-app" target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
@@ -116,7 +119,7 @@ const Work = () => {
           {/* Grid Item 6 */}
           {/* <div style={{ backgroundImage: `url(${realEstate})` }} className="shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto rounded-md content-div">
             {/* Hover effect */}
-            {/* <div className='opacity-0 group-hover:opacity-100'>
+          {/* <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Application
               </span>
@@ -128,7 +131,7 @@ const Work = () => {
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
                 </a>
               </div> */}
-            {/* </div>
+          {/* </div>
           </div>  */}
         </div>
       </div>
