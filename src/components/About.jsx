@@ -13,13 +13,12 @@ const About = () => {
                 </div>
                 <div className="max-w-[1000px] grid sm:grid-cols-2 gap-8 w-full">
                     <div className="sm:text-right pb-6 pl-4">
-                        <p className="text-4xl inline font-bold">Computer Science student and an aspiring software engineer.</p>
+                        <p className="text-4xl inline font-bold">A software engineer with good problem-solving and communication .</p>
                     </div>
                     <div className="px-4 text-justify">
-                        <p>Hello there, My name is Wajahat Ali, I&apos;m a fresh CS graduate, maintaining the CGPA of <code className="text-white font-semibold">3.62/4.00</code>.In addition to my academic achievements, I have a strong interest in <span className="text-white">development technologies</span> and have been actively practicing web development since the 5th semester of my bachelor's degree. For more details, please review my Work Section or visit my <a className="text-white cursor-pointer font-semibold" rel="noreferrer" target="_blank" href="https://www.github.com/wajaht-ali/">Github</a> profile.</p>
+                        <p> I am A junior software engineer and Computer Science graduate with six months of relevant industry experience in developing and contributing to cutting-edge software architectures. I specialize in  <span className="text-white">Web technologies</span> and am devoted to building scalable, efficient, and innovative solutions. For more details, please review my Work Section or visit my <a className="text-white cursor-pointer font-semibold" rel="noreferrer" target="_blank" href="https://www.github.com/wajaht-ali/">Github</a> profile.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     )
