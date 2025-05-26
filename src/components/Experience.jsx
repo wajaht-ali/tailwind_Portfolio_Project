@@ -1,5 +1,8 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 // import { Link } from "react-router-dom"
+import PropTypes from 'prop-types';
+import Timeline from './Timeline';
 
 const Experience = () => {
     return (
@@ -9,10 +12,9 @@ const Experience = () => {
                     <div className="sm:text-right pb-8 pl-4">
                         <p className="text-4xl inline font-bold border-b-4 border-blue-500">Experience</p>
                     </div>
-                    <div></div>
                 </div>
                 <div className="max-w-[1000px] grid sm:grid-cols-2 gap-8 w-full">
-                    
+                    <Timeline />
                 </div>
             </div>
         </div>
