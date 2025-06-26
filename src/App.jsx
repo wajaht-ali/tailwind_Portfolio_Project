@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import About from './components/About';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
@@ -19,7 +20,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
-      <Experience />
+      {/* <Experience /> */}
       {/* <Certifications /> */}
       <Footer />
     </div>

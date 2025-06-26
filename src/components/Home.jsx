@@ -20,7 +20,7 @@ const Hero = () => {
         <p className="text-blue-200">Hi, I&apos;m</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] line'>Wajahat Ali</h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]"> <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"> <span className="text-sm">Jr </span>Software Engineer.</span></h2>
-        <p className="text-[#d4dbee] py-4 max-w-[700px] text-[18px]">Working with web technologies | Javascript | MERN Stack | SQL & NoSQL DBs | Node.js | REST APIs</p>
+        <p className="text-[#d4dbee] py-4 max-w-[700px] text-[18px]">Software Engineer @ mimAR | Javascript | MERN Stack | SQL & NoSQL DBs | Node.js | REST APIs</p>
 
         <div className="flex flex-row items-center gap-x-4">
 
@@ -31,7 +31,7 @@ const Hero = () => {
             </span>
           </a>
 
-          <a href={"https://drive.google.com/file/d/1pA-8fh8OIWmhSG3ugCxt4yxppgXV120d/view?usp=sharing"} target="_blank" rel="noreferrer" className="text-white group w-[120px] text-center justify-evenly py-1 border-2 border-blue-500 hover:bg-blue-400 flex items-center  ease-in duration-300 origin-bottom">
+          <a href="/src/assets/data/Wajahat_Ali_Resume.pdf" className="text-white group w-[120px] text-center justify-evenly py-1 border-2 border-blue-500 hover:bg-blue-400 flex items-center  ease-in duration-300 origin-bottom" download="Wajahat_Ali_Resume.pdf">
             <p>Resume</p>
             <span className='group-hover:translate-y-1 group-hover:text-black duration-300'>
               <IoMdCloudDownload />
