@@ -31,7 +31,7 @@ const Hero = () => {
             </span>
           </a>
 
-          <a href="/src/assets/data/Wajahat_Ali_Resume.pdf" className="text-white group w-[120px] text-center justify-evenly py-1 border-2 border-blue-500 hover:bg-blue-400 flex items-center  ease-in duration-300 origin-bottom" download="Wajahat_Ali_Resume.pdf">
+          <a href={"https://drive.google.com/file/d/1SupC_wMlEWZiT4HOrBX2XJRIliJqvZo_/view?usp=sharing"} target="_blank" rel="noreferrer" className="text-white group w-[120px] text-center justify-evenly py-1 border-2 border-blue-500 hover:bg-blue-400 flex items-center  ease-in duration-300 origin-bottom" >
             <p>Resume</p>
             <span className='group-hover:translate-y-1 group-hover:text-black duration-300'>
               <IoMdCloudDownload />
